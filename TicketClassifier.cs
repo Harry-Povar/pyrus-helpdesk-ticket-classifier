@@ -108,7 +108,7 @@ public class TicketClassifier
                     _labels.multi[_routingTask]
                 ),
 
-                Services = singleResults["Сервисы(тестовая)"] == "Корпоративная почта" ? "Аккаунт Яндекс" : singleResults["Сервисы(тестовая)"], //Блядский костыль((((
+                Services = singleResults["Сервисы(тестовая)"] == "Корпоративная почта" ? "Аккаунт Яндекс" : singleResults["Сервисы(тестовая)"],// костыль((((
                 Type = singleResults["Тип задачи"],
                 Priority = singleResults["Приоритеты"]
             });
